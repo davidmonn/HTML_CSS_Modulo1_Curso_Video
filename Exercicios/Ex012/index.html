@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo Videos Hospedados Localmente</h1>
+    <p>Este video esta hospedado em meu prorpio servidor.</p>
+    <!--<video src="midia/meu-video-360p.ogv" autoplay controls width="250px"></video>-->
+    <video controls poster="imagens/capa.png" width="450px" loop>
+        <source src="midia/meu-video-360p.ogv" type="video/ogg">
+        <source src="midia/meu-video-360p.m4v" type="video/m4v">
+        <source src="midia/meu-video-360p.mp4" type="video/mp4">
+        <source src="midia/Meu-Video-360P.webm" type="video/webm">
+        <p>Seu navegador nao tem compatibilidade com reproducao de videos.</p>
+    </video>
+
+    <h1>Inserindo Videos do YouTube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=Je82zU-e6-yBS2hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo Videos do Vimeo.</h1>
+    <iframe src="https://player.vimeo.com/video/270637523?h=fd990c20a9&autoplay=1&color=c9ff23&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
